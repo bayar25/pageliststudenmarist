@@ -82,6 +82,10 @@
                 <label label for="name" class="form-label">Contraseña</label>
                 <h5 id="name" class="form-control">{{password}}</h5>
               </div>
+              <div class="mb-3">
+                <label label for="name" class="form-label">Código Estudiante</label>
+                <h5 id="name" class="form-control">{{code}}</h5>
+              </div>
             </div>
           </form>
         </div>
@@ -97,6 +101,7 @@
           section: "",
           mail: "",
           password: "",
+          code:"",
           dataList: listDt,
           visable: false,
         },
@@ -111,6 +116,7 @@
                 this.firname = element.Firname;
                 this.mail = element.mail;
                 this.password = element.password;
+                this.code = element.Codigo;
                 this.visable = true;
               }
             });
